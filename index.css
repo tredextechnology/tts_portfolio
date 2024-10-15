@@ -310,7 +310,15 @@ footer {
 }
 
 /* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader */
-
+@media (max-width: 876px) {
+   header nav a {
+      /* Add your styles here */
+      font-size: 15px; /* Example style */
+       /* Example style */
+       
+    }
+  }
+  
 
 
 
