@@ -1,0 +1,316 @@
+body {
+    /* Makes the page scrollable */
+    
+  }
+  
+/* Nav Starts *//* Nav Starts *//* Nav Starts *//* Nav Starts *//* Nav Starts *//* Nav Starts */
+
+  
+header {
+    background-color: mediumseagreen;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    transition: background-color 0.4s ease-in-out;
+    z-index: 1000;
+}
+
+header.scrolled {
+    background-color: orange;
+    opacity: 0.98;
+}
+
+header nav {
+    padding: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+    margin: 10px;
+    transition: color 0.4s ease-in-out;
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: aqua;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Header on scroll changes */
+header.scrolled nav a {
+    color: black;
+}
+
+header.scrolled .dropdown-content a {
+    color: black;
+}
+
+/* Welcome Section */
+.welcome {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.welcome1 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+/* Nav Starts *//* Nav Starts *//* Nav Starts *//* Nav Starts *//* Nav Starts *//* Nav Starts *//* Nav Starts *//* Nav Starts *//* Nav Starts */
+
+
+/* Main Section *//* Main Section *//* Main Section *//* Main Section *//* Main Section *//* Main Section *//* Main Section */
+.main {
+    margin: 30px;
+    display: grid;
+    background-color: lightblue;
+    height: auto; /* Allow height to adjust automatically */
+    width: 700px;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 30px;
+    
+}
+
+.main1 {
+    margin: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.maindetails {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindetails p {
+    color: blueviolet;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+/* Main Section *//* Main Section *//* Main Section *//* Main Section *//* Main Section *//* Main Section *//* Main Section */
+/* main ends */
+
+/* apply  button starts *//* apply  button starts *//* apply  button starts *//* apply  button starts *//* apply  button starts *//* apply  button starts *//* apply  button starts */
+.apply button
+{
+    border-radius: 30px;
+}
+.apply
+{
+    padding: 5px;
+    margin: 10px;
+    display: grid;
+    border-style: none;
+    font-size: larger;
+    border-color: none;
+    border-radius: 20px;
+    
+}
+.apply:hover 
+
+{
+    background-color: white;
+   
+}
+.apply:hover button
+{
+    background-color: lightgrey;
+}
+/* apply  button starts *//* apply  button starts *//* apply  button starts *//* apply  button starts *//* apply  button starts *//* apply  button starts *//* apply  button starts *//* apply  button starts */
+/*  apply button ends*/
+
+
+/* Footer Styles start *//* Footer Styles start *//* Footer Styles start *//* Footer Styles start *//* Footer Styles start *//* Footer Styles start *//* Footer Styles start *//* Footer Styles start *//* Footer Styles start *//* Footer Styles start *//* Footer Styles start *//* Footer Styles start */
+footer {
+    background-color: mediumseagreen;
+    padding: 20px;
+    color: white;
+    
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.footer-logo {
+    max-height: 70px; 
+    width:100px;
+    border-radius: 30px;/* Adjust the size of the logo */
+}
+
+.footer-left p,
+.footer-right p {
+    margin: 0;
+    font-size: 20px;
+}/* Footer Styles start *//* Footer Styles start *//* Footer Styles start *//* Footer Styles start *//* Footer Styles start *//* Footer Styles start */
+
+/* footer end */
+
+
+
+/*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   */
+
+/* Initial state - hidden on the left */
+.hidden-left {
+    transform: translateX(-70%); /* Start off-screen to the left */
+    opacity: 0;
+    transition: transform 1.8s ease-in-out, opacity 1s ease-in-out;
+}
+
+/* Animated state - back to default position */
+.animate-from-left {
+    transform: translateX(0); /* Default position */
+    opacity: 1;
+}
+
+/* Initial state - hidden on the right */
+.hidden-right {
+    transform: translateX(70%);
+    opacity: 0;
+    transition: transform 1.8s ease-in-out, opacity 1s ease-in-out;
+}
+
+.animate-from-right {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* FADE STARTS *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE */
+.fade-in {
+    opacity: 0; /* Start as invisible */
+    transform: translateY(100px); /* Slightly move down */
+    transition: opacity 1s ease, transform 1s ease; /* Smooth transition */
+}
+
+.fade-in.visible {
+    opacity: 1; /* Make visible */
+    transform: translateY(0); /* Move to original position */
+}
+/* FADE *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE */
+/*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   *//*  aos starts   */
+/* FADE */
+
+
+
+
+/* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader */
+
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff; /* Background of the preloader */
+    z-index: 99999; /* Ensures it appears on top of everything */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for logo and spinner */
+.logo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo styles */
+.preloader-logo {
+    width: 100px; /* Adjust size as per your logo */
+    height: auto;
+}
+
+/* Spinner animation */
+.spinner {
+    position: absolute;
+    width: 120px; /* Larger than the logo for the spinner to rotate around it */
+    height: 120px;
+    border: 8px solid #f3f3f3; /* Light border */
+    border-top: 8px solid #3498db; /* Blue top border */
+    border-radius: 50%;
+    animation: spin 1s linear infinite; /* Spinning animation */
+}
+
+/* Keyframes for the spinning effect */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Fade-out effect */
+#preloader.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    visibility: hidden;
+}
+
+/* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader */
+
+
+
+
