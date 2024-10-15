@@ -259,7 +259,7 @@ footer {
 /* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader */
 
 
-@media( max-width:576px){#preloader {
+#preloader {   #preloader  .logo-container .preloader-logo .spinner
     position: fixed;
     top: 0;
     left: 0;
@@ -270,7 +270,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}}
+}
 
 /* Container for logo and spinner */
 .logo-container {
@@ -312,6 +312,12 @@ footer {
 
 /* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader */
 @media (max-width: 576px) {
+    #preloader  .logo-container .preloader-logo .spinner
+    {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
    header nav a {
       /* Add your styles here */
       font-size: 17px; /* Example style */
