@@ -259,7 +259,7 @@ footer {
 /* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader */
 
 
-#preloader {   #preloader  .logo-container .preloader-logo .spinner
+#preloader {   
     position: fixed;
     top: 0;
     left: 0;
@@ -312,12 +312,7 @@ footer {
 
 /* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader */
 @media (max-width: 576px) {
-    .spinner  
-    {
-        
-        justify-content: center;
-        align-items: center;
-    }
+    
    header nav a {
       /* Add your styles here */
       font-size: 17px; /* Example style */
