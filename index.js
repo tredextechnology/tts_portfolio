@@ -45,11 +45,15 @@ document.addEventListener('DOMContentLoaded', () => {
 // Preloader
 window.addEventListener('load', () => {
     const preloader = document.getElementById('preloader');
-    preloader.classList.add('fade-out'); // Fade out the preloader
+    
+    // Add fade-out effect
+    preloader.classList.add('fade-out'); 
+    
+    // After fade-out, hide preloader completely
     setTimeout(() => {
-        preloader.style.display = 'none'; // Completely hide after fade out
+      preloader.style.display = 'none';
     }, 500); // Match this delay with the CSS transition time
-});
+  });
 
 
 
