@@ -259,7 +259,7 @@ footer {
 /* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader */
 
 
-@media( max-width:2000px){#preloader {
+@media( max-width:576px){#preloader {
     position: fixed;
     top: 0;
     left: 0;
