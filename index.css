@@ -312,7 +312,7 @@ footer {
 
 /* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader *//* preloader */
 @media (max-width: 576px) {
-    #preloader  
+    .spinner  
     {
         
         justify-content: center;
