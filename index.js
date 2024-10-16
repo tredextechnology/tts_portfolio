@@ -43,16 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Preloader
-window.addEventListener('load', () => {
-    const preloader = document.getElementById('preloader');
-    
-    // Add fade-out effect
-    preloader.classList.add('fade-out'); 
-    
-    // After fade-out, hide preloader completely
-    setTimeout(() => {
-      preloader.style.display = 'none';
-    }, 500); // Match this delay with the CSS transition time
+window.addEventListener('load', function () {
+    document.body.classList.add('loaded');
   });
 
 
