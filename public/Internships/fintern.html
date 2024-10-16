@@ -17,6 +17,15 @@
         justify-content: center;
         
     }
+    p{
+        size: 80px;
+    }
+    @media (max-width:700px)
+    {
+.pl{
+   transform: translateX(-22px);
+}
+    }
 </style>
 <body>
     <header>
@@ -43,11 +52,11 @@
     
     </div>
 
-       <div class="maindetails "> <p style="margin: 20px;"><strong>We offer both free and paid internship programs tailored to various domains:</strong></p></div>
+       <div class="maindetails"> <p style="margin: 20px; color: yellow; font-weight:900;font-size: larger;"><strong>We offer both free and paid internship programs tailored to various domains:</strong></p></div>
         <ul>
-          <center> <h3 style="margin: 5px; padding: 20px;"> <strong>Free Internship Available Domains</strong> </h3></center>
+          <center> <h3 class="pl" style="margin: 5px; padding: 20px; color: orange; font-weight: 600;"> <strong>Free Internship Available Domains</strong> </h3></center>
                <div class="center1">
-                   <div style="margin-right: 40px; display: grid; font-size: larger; background-color: antiquewhite;padding: 30px; border-radius: 30px; width: 300px;">  <strong><ul>Web Development</ul>
+                   <div style="margin-right: 40px; display: grid; font-size: larger; background-color: white;padding: 30px; border-radius: 30px; width: 300px;">  <strong><ul>Web Development</ul>
                    <ul>Frontend Development</ul>
                     <ul>Backend Development</ul>
                     <ul>SQL</ul>
@@ -62,9 +71,9 @@
 
            
         <ul>
-          <center> <h3 style="margin: 5px; padding: 20px;"> <strong>Paid Internship Available Domains</strong> </h3></center>
+          <center> <h3  class="pl"  style="margin: 5px; padding: 20px; color: orange; font-weight: 600;"> <strong>Paid Internship Available Domains</strong> </h3></center>
                <div class="center1">
-                   <div style="margin-right: 40px; display: grid; font-size: larger; background-color: antiquewhite;padding: 30px; border-radius: 30px; width: 300px;">  <strong><ul>Web Development</ul>
+                   <div style="margin-right: 40px; display: grid; font-size: larger; background-color: white;padding: 30px; border-radius: 30px; width: 300px;">  <strong><ul>Web Development</ul>
                    <ul>Frontend Development</ul>
                     <ul>Backend Development</ul>
                     <ul>SQL</ul>
@@ -122,5 +131,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>    
+    <script src="/index.js"></script>
 </body>
 </html>

@@ -1,6 +1,7 @@
 body {
     /* Makes the page scrollable */
     overflow-x: hidden;
+   background-image: url("./public/bg/bg.jpg");
    
   }
   
@@ -102,6 +103,7 @@ header.scrolled .dropdown-content a {
     padding: 20px;
     justify-content: center;
     border-radius: 30px;
+    background-color: white;
     
 }
 
@@ -120,9 +122,10 @@ header.scrolled .dropdown-content a {
 }
 
 .maindetails p {
-    color: blueviolet;
+    color: red;
     font-size: larger;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 /* Main Section *//* Main Section *//* Main Section *//* Main Section *//* Main Section *//* Main Section *//* Main Section */
 /* main ends */
