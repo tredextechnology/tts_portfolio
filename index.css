@@ -13,15 +13,16 @@ body {
   
 header {
     background-color: mediumseagreen;
-    height: 5em;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     position: sticky;
    
+   width: 100%;
     top: 0;
     transition: background-color 0.4s ease-in-out;
-    z-index: 1000;
+    z-index: 100000;
 }
 
 header.scrolled {
@@ -248,7 +249,7 @@ footer {
 /* FADE STARTS *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE */
 .fade-in {
     opacity: 0; /* Start as invisible */
-    transform: translateY(30px); /* Slightly move down */
+    transform: translateY(100px); /* Slightly move down */
     transition: opacity 1s ease, transform 1s ease; /* Smooth transition */
 }
 
