@@ -222,7 +222,7 @@ footer {
 
 /* Initial state - hidden on the left */
 .hidden-left {
-    transform: translateX(10%); /* Start off-screen to the left */
+    transform: translateX(5%); /* Start off-screen to the left */
     opacity: 0;
     transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 }
@@ -235,7 +235,7 @@ footer {
 
 /* Initial state - hidden on the right */
 .hidden-right {
-    transform: translateX(-10%);
+    transform: translateX(-5%);
     opacity: 0;
     transition: transform 1.8s ease-in-out, opacity 1s ease-in-out;
 }
@@ -248,7 +248,7 @@ footer {
 /* FADE STARTS *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE */
 .fade-in {
     opacity: 0; /* Start as invisible */
-    transform: translateY(50px); /* Slightly move down */
+    transform: translateY(30px); /* Slightly move down */
     transition: opacity 1s ease, transform 1s ease; /* Smooth transition */
 }
 
