@@ -222,9 +222,9 @@ footer {
 
 /* Initial state - hidden on the left */
 .hidden-left {
-    transform: translateX(20%); /* Start off-screen to the left */
+    transform: translateX(10%); /* Start off-screen to the left */
     opacity: 0;
-    transition: transform 1.8s ease-in-out, opacity 1s ease-in-out;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 }
 
 /* Animated state - back to default position */
@@ -235,7 +235,7 @@ footer {
 
 /* Initial state - hidden on the right */
 .hidden-right {
-    transform: translateX(-20%);
+    transform: translateX(-10%);
     opacity: 0;
     transition: transform 1.8s ease-in-out, opacity 1s ease-in-out;
 }
