@@ -1,8 +1,8 @@
 body {
     /* Makes the page scrollable */
     overflow-x: hidden;
-    width: auto;
-    width: fit-content;
+    width: 100%;
+   
     
    background-image: url("./public/bg/bg.jpg");
    
