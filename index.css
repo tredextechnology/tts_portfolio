@@ -17,6 +17,7 @@ header {
     align-items: center;
     justify-content: center;
     position: sticky;
+   
     top: 0;
     transition: background-color 0.4s ease-in-out;
     z-index: 1000;
@@ -87,7 +88,7 @@ header.scrolled .dropdown-content a {
 }
 
 .welcome1 {
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
     
@@ -220,7 +221,7 @@ footer {
 
 /* Initial state - hidden on the left */
 .hidden-left {
-    transform: translateX(-70%); /* Start off-screen to the left */
+    transform: translateX(-40%); /* Start off-screen to the left */
     opacity: 0;
     transition: transform 1.8s ease-in-out, opacity 1s ease-in-out;
 }
@@ -233,7 +234,7 @@ footer {
 
 /* Initial state - hidden on the right */
 .hidden-right {
-    transform: translateX(70%);
+    transform: translateX(40%);
     opacity: 0;
     transition: transform 1.8s ease-in-out, opacity 1s ease-in-out;
 }
