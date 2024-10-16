@@ -248,7 +248,7 @@ footer {
 /* FADE STARTS *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE *//* FADE */
 .fade-in {
     opacity: 0; /* Start as invisible */
-    transform: translateY(100px); /* Slightly move down */
+    transform: translateY(50px); /* Slightly move down */
     transition: opacity 1s ease, transform 1s ease; /* Smooth transition */
 }
 
