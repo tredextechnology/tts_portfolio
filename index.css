@@ -2,6 +2,7 @@ body {
     /* Makes the page scrollable */
     overflow-x: hidden;
     width: auto;
+    width: fit-content;
     
    background-image: url("./public/bg/bg.jpg");
    
