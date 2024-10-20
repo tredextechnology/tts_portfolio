@@ -276,7 +276,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    z-index: 9999;
+    z-index: 99999;
   }
 
   /* Spinning animation */
@@ -286,7 +286,7 @@ footer {
     border: 10px solid rgba(0, 0, 0, 0.1);
     border-top: 10px solid #3498db;
     border-radius: 50%;
-    animation: spin 2s linear infinite;
+    animation: spin 0.5s linear infinite;
     position: relative;
   }
 
